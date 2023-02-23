@@ -7,8 +7,8 @@ exports.sendMail = async (to="bar@example.com", name="User Name", forRole="user"
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
-      user: 'admin@deekshithsn.live ', // generated ethereal user
-      pass: '****', // generated ethereal password
+      user: 'admin@xyz.com ', // generated ethereal user
+      pass: 'admin', // generated ethereal password
     },
   });
 
